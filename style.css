@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #0e0d0d;
+}
+
+/* Header Section */
+.hero-section {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    color: #f4d03f; /* Gold */
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Navigation */
+.navbar {
+    background: #005f3c; /* Green */
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #f4d03f; /* Gold */
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background: white;
+}
+
+.about h2 {
+    color: #005f3c; /* Green */
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #f4d03f; /* Gold */
+}
+
+/* Stats Section */
+.stats {
+    background: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.stats ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stats li {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.gallery h2 {
+    color: #005f3c; /* Green */
+    margin-bottom: 20px;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #f4d03f; /* Gold */
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    background: #005f3c; /* Green */
+    color: white;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.contact input, 
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f4d03f; /* Gold */
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #d4ac0d; /* Darker Gold */
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
